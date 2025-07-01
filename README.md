@@ -18,4 +18,4 @@ Key Features
  Ready-made template notebooks (CNN, regression, etc.)
  Session manager for saving and resuming work
  Real-time training visualization (accuracy, loss plots)
-# GPU simulation support for scalable testing
+ GPU simulation support for scalable testing
