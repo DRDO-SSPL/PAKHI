@@ -1,0 +1,12 @@
+{
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": ["print('Hello from JSON')"],
+      "outputs": [],
+      "execution_count": 1
+    }
+  ],
+  "metadata": {}
+}
