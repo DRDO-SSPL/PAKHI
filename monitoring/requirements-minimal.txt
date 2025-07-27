@@ -1,0 +1,27 @@
+# Minimal Dependencies for Mini OS for Machine Learning and Training Databases - Monitoring System
+# Use this for basic functionality only
+
+# Core data handling
+numpy
+pandas
+
+# Machine Learning (choose one framework)
+torch
+torchvision
+# OR use: tensorflow
+
+# Basic plotting
+matplotlib
+seaborn
+
+# System monitoring
+psutil
+
+# Web components (for FastAPI integration)
+fastapi
+uvicorn
+websockets
+
+# Basic utilities
+python-dateutil
+typing-extensions
