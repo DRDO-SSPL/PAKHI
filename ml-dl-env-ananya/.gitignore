@@ -1,1 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset files
+test_scripts/data/
+*.idx3-ubyte
+*.idx1-ubyte
+*.gz
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+
+# Logs
+logs/
+*.log
