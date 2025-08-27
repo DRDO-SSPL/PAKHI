@@ -1,0 +1,90 @@
+/* Global dark theme */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+/* Toolbar buttons */
+button {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  padding: 0.6rem 1.2rem;
+  margin-right: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+button:disabled {
+  background-color: #2c2c2c;
+  color: #888;
+  border-color: #444;
+  cursor: not-allowed;
+}
+
+/* Cell styling */
+.cell {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Textarea input */
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: #181818;
+  color: #f5f5f5;
+  border: 1px solid #333;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Output section */
+.output {
+  background-color: #2a2a2a;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  color: #aaffaa;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Delete button red */
+button.delete {
+  background-color: #8b0000;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #a80000;
+}
